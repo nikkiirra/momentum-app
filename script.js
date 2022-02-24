@@ -86,5 +86,14 @@ var quotesList = [
     `Your value will be not what you know; it will be what you share. - Ginni Rometty`,
     `Never believe anyone who says you don’t deserve what you want. -Taylor Swift`,
     `Choose people who lift you up. -Michelle Obama`];
-    
 
+var QuoteBtn = document.getElementById("storedQuotebtn");
+    QuoteBtn.addEventListener("click", renderQuote);
+    
+// ----------------------- Quotes Display ----------------------- // 
+var displayQuote = document.getElementById("display-quote");
+    function renderQuote() {
+        quote.style.display = "flex";
+        displayQuote.textContent = quotesList[Math.floor(Math.random() * quotesList.length)];
+    }    
+    

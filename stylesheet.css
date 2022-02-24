@@ -94,6 +94,16 @@ body {
   font-size: 3rem;
 }
 
+/*-------------Quotes------------*/
+
+#quote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
 
 
 /*------------ buttons ------------ */
