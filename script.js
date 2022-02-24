@@ -96,4 +96,27 @@ var displayQuote = document.getElementById("display-quote");
         quote.style.display = "flex";
         displayQuote.textContent = quotesList[Math.floor(Math.random() * quotesList.length)];
     }    
+// ----------------------- New Quote ----------------------- // 
+var addQuoteBtn = document.getElementById("newQuotebtn");
+    addQuoteBtn.addEventListener("click", displayInputQuote)
+    
+var inputQuote = document.getElementById("input-quote");
+    inputQuote.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            addQuote();
+        }
+    });   
+var getQuote = document.getElementById("get-quote");
+    function displayInputQuote() {
+        inputQuote.value = "";
+        displayQuote.style.display = "none";
+        getQuote.style.display = "flex";
+     }
+    
+    function addQuote() {
+        quotesList.push(inputQuote.value);
+        displayQuote.textContent = inputQuote.value;
+        displayQuote.style.display = "flex";
+        getQuote.style.display = "none";
+    }
     
