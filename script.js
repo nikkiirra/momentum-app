@@ -18,6 +18,7 @@ mainFocus.style.display = "none";
 
 var submitName = document.getElementById("submitName");
 var inputName = document.getElementById("typeName");
+
 submitName.addEventListener("click", greet);
 inputName.addEventListener('keypress', function (event) {
     if (event.key === 'Enter') {
@@ -60,6 +61,14 @@ function updateTime() {
 }
 setInterval(updateTime, 1000);
 
+// ----------------------- Main Focus Display ----------------------- // 
+var inputFocus = document.getElementById("mainfocusData");
+inputFocus.addEventListener('keypress', function (event) {
+    if (event.key === 'Enter') {
+        renderFocus();
+    }
+});
+
 // ----------------------- Main Focus ----------------------- // 
 var displayFocus = document.getElementById("display-focus");
 function renderFocus() {
@@ -69,13 +78,7 @@ function renderFocus() {
     mainFocus.style.display = "flex";
    
 }
-// ----------------------- Main Focus Display ----------------------- // 
-var inputFocus = document.getElementById("mainfocusData");
-inputFocus.addEventListener('keypress', function (event) {
-    if (event.key === 'Enter') {
-        renderFocus();
-    }
-});
+
 
 
 // ----------------------- Quotes ----------------------- // 
