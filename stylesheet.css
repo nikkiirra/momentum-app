@@ -94,4 +94,26 @@ body {
   font-size: 3rem;
 }
 
+/*------------ buttons ------------ */
+
+button {
+  margin-top: 20px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  padding: 11px 16px;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: rgba(235, 183, 12, 0.8);
+  border-color: rgba(15, 15, 15, 0.8) ;
+  
+}
+
 

@@ -6,8 +6,9 @@ greeting.style.display = "none";
 var askFocus = document.getElementById("inquireFocus");
 askFocus.style.display = "none";
 
-// var quote = document.getElementById("quote");
-// quote.style.display = "none";
+var quote = document.getElementById("quote");
+quote.style.display = "none";
+
 
 var mainFocus = document.getElementById("main-focus");
 mainFocus.style.display = "none";
@@ -75,4 +76,15 @@ inputFocus.addEventListener('keypress', function (event) {
         renderFocus();
     }
 });
+
+
+// ----------------------- Quotes ----------------------- // 
+var quotesList = [
+    `All our dreams can come true, if we have the courage to pursue them. -Walt Disney`,
+    `Shoot for the moon. Even if you miss, you'll land among the stars. -Les Brown`,
+    `The most effective way to do it, is to do it. - Amelia Earhart`,
+    `Your value will be not what you know; it will be what you share. - Ginni Rometty`,
+    `Never believe anyone who says you don’t deserve what you want. -Taylor Swift`,
+    `Choose people who lift you up. -Michelle Obama`];
+    
 
