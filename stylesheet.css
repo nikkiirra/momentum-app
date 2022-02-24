@@ -104,6 +104,42 @@ body {
   
 }
 
+#input-quote {
+  width: 100%;
+  padding-top: 4px;
+  display: block;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 400;
+  outline: none;
+  text-align: center;
+  transition: border-color .2s ease;
+  margin-bottom: 6rem;
+  
+}
+
+#quote {
+  text-align: center;
+  font-size: 1.20rem;
+
+}
+
+#quote-ul {
+  font-size: 1rem;
+  padding: 50px;
+ 
+}
+
+#quote-ul li {
+  padding: 10px;
+  text-align: start;
+  max-width: 100%;
+}
+
 
 
 /*------------ buttons ------------ */
