@@ -46,3 +46,44 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+/*---------------------- Main Focus, Quotes, Time and To Do List-----------------*/
+
+
+
+/*-------------Main Focus------------*/
+
+#main-focus { 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-focus {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+#typeName, #mainfocusData {
+  width: 100%;
+  padding-top: 4px;
+  display: block;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 400;
+  outline: none;
+  text-align: center;
+  transition: border-color .2s ease;
+  margin-bottom: 6rem;
+}
+
+#greetUser {
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
