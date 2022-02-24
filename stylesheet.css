@@ -88,3 +88,8 @@ body {
   padding-bottom: 20px;
 }
 
+/* <!------------------Let mainFocusData appear------------------> */
+
+#today {
+  font-size: 3rem;
+}

@@ -75,3 +75,4 @@ inputFocus.addEventListener('keypress', function (event) {
         renderFocus();
     }
 });
+
